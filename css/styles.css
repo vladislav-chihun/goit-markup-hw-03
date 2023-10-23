@@ -1,9 +1,32 @@
 ul,
 ol {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body {
@@ -15,6 +38,7 @@ body {
   line-height: 140%; /* 19.6px */
 }
 .address-link {
+  display: flex;
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -28,6 +52,11 @@ body {
 .main-title {
   color: #ffffff;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 292px;
+  padding-left: 472px;
+  padding-right: 472px;
+  width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07em; /* 107.143% */
@@ -91,6 +120,7 @@ body {
   color: #404bbf;
 }
 .address-link {
+  display: flex;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em; /* 150% */
@@ -151,6 +181,34 @@ body {
 .pic-color {
   background-color: #ffffff;
 }
-.address {
-  font-style: normal;
+
+.nav {
+  display: flex;
+}
+.nav .link-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-div {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .logo {
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.menu {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+.hero-color {
+  height: 600px;
+  width: 1440px;
 }
