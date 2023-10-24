@@ -137,6 +137,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.navlink {
+   padding: 120px 0;
+}
 .navlink:hover,
 .navlink:focus {
   color: #404bbf;
