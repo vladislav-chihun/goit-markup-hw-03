@@ -187,8 +187,9 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.nav a {
-  padding: 24px 0;
+.link-list a {
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .small-titles {
   font-size: 20px;
