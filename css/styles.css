@@ -262,6 +262,7 @@ border-bottom: 1px solid #e7e9fc;
 .flex-smalltitles {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .descr-section {
