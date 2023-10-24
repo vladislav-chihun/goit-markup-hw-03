@@ -197,6 +197,8 @@ body {
   line-height: 1.17em; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px
+   display: inline-block;
 }
 .footer-text {
   color: #f4f4fd;
@@ -251,9 +253,9 @@ body {
   gap: 40px;
 }
 .menu {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
   border-bottom: 1px solid #e7e9fc
+  padding-bottom: 24px;
 }
 .flex-small-titles {
   display: flex;
@@ -276,7 +278,5 @@ body {
   padding-bottom: 60px;
 }
 .descr-section {
-  padding: 188px 0;
-  padding-top: 60px;
-  padding-bottom: 60px;
+   padding: 188px 0 188px;
 }
