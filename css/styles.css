@@ -205,6 +205,7 @@ body {
 }
 .footer-color {
   background-color: #2e2f42;
+  padding: 100px 0
 }
 .pic-color {
   background-color: #ffffff;
@@ -220,11 +221,13 @@ body {
 
 .nav {
   display: flex;
+  align-items: center
 }
 .nav .link-list {
   display: flex;
   align-items: center;
   gap: 40px;
+  
 }
 .header-div {
   display: flex;
@@ -233,9 +236,9 @@ body {
   padding-bottom: 0;
 }
 .nav .logo {
-  display: flex;
   align-items: center;
   margin-right: 76px;
+  display: inline-block
 }
 .address-list {
   display: flex;
@@ -245,6 +248,7 @@ body {
 .menu {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc
 }
 .flex-small-titles {
   display: flex;
