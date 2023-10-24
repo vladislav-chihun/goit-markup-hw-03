@@ -306,3 +306,6 @@ body {
   margin-bottom: 16px;
   display: inline-block;
 }
+.portfolio-section {
+  padding-top: 120px; padding-bottom: 120px
+}
