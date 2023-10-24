@@ -212,8 +212,7 @@ body {
 }
 .footer-color {
   background-color: #2e2f42;
-  padding: 100px 0;
-  padding-top: 60px;
+  padding: 100px 0 100px;
 }
 .pic-color {
   background-color: #ffffff;
@@ -292,4 +291,8 @@ body {
 }
 .portfolio-container {
   margin-bottom: 8px;
+}
+.porflio-products {
+    padding: 32px 16px;
+    border-top: none;
 }
