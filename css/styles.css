@@ -418,6 +418,3 @@ border-bottom: 1px solid #e7e9fc;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.small-titles {
-  width: calc((100% - 72px) / 4);
-}
