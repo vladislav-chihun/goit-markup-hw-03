@@ -54,11 +54,16 @@ body {
   color: #404bbf;
 }
 .main-title {
-  width: 496px;
-  max-width: 496px
-  margin-bottom: 8px
-  margin: 0 auto;
-  padding: 0 15px;
+ width: 496px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 .main-title {
   color: #ffffff;
@@ -144,7 +149,11 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-color {
-  background-color: #2e2f42;
+  background: #2E2F42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  flex-shrink: 0; 
+  
 }
 .button {
   font-family: "Roboto", sans-serif;
