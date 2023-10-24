@@ -317,3 +317,6 @@ body {
   padding-top: 120px; 
   padding-bottom: 120px
 }
+.nav-link {
+  padding: 0 15px;
+}
