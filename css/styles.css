@@ -55,6 +55,7 @@ body {
 }
 .main-title {
   width: 496px;
+  max-width: 496px
 }
 .main-title {
   color: #ffffff;
@@ -146,17 +147,20 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  display: block;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 169px
   margin-top: 48px;
   margin-bottom: 188px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 169px;
   height: 56px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
+  border: none;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
@@ -205,7 +209,8 @@ body {
 }
 .footer-color {
   background-color: #2e2f42;
-  padding: 100px 0
+  padding: 100px 0;
+  padding-top: 60px;
 }
 .pic-color {
   background-color: #ffffff;
@@ -267,6 +272,11 @@ body {
   gap: 24px;
 }
 .portfolio-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.descr-section {
+  padding: 188px 0;
   padding-top: 60px;
   padding-bottom: 60px;
 }
