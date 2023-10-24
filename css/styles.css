@@ -80,38 +80,6 @@ body {
 .descr-title {
   color: rgba(0%, 0%, 0%, 0%);
 }
-.title-team {
-  font-family: Roboto, sans-serif;
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11em; /* 111.111% */
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-.title-portfolio {
-  align-items: center;
-  color: #2e2f42;
-  text-align: center;
-  font-family: Roboto, sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11em; /* 111.111% */
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-  padding-top: 60px;
-  padding-bottom: 72px;
-}
-.team-color {
-  background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .footer-logo {
   color: #f4f4fd;
@@ -286,24 +254,7 @@ border-bottom: 1px solid #e7e9fc;
   display: flex;
   gap: 24px;
 }
-.portfolio-flex {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  width: calc((100% - 48px) / 3);
-}
-.team-container {
-   padding-top: 120px;
-}
-.team {
-  display: flex;
-  gap: 24px;
-}
-.portfolio-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .descr-section {
    padding: 188px 0 188px;
 }
@@ -315,10 +266,7 @@ border-bottom: 1px solid #e7e9fc;
     border: 0;
     padding: 0;
 }
-.portfolio-container {
-  margin-bottom: 8px;
-   border: 1px solid #e7e9fc;
-}
+
 .porflio-products {
   padding: 32px 16px;
   margin-bottom: 8px;
@@ -329,14 +277,125 @@ border-bottom: 1px solid #e7e9fc;
   margin-bottom: 16px;
   display: inline-block;
 }
-.portfolio-section {
-  padding-top: 120px; 
-  padding-bottom: 120px
-}
+
 .nav-link {
   padding: 0 15px;
   
 }
-.portfolio-products .small-titles {
-  margin-bottom: 8px;
+.portfolio-section {
+    background-color: #FFFFFF;
+    padding: 120px 0 120px 0;
 }
+
+.portfolio-section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+
+}
+
+.portflio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.portflio-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 48px) /3);
+}
+
+.porflio-products {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portflio-list-item-name {
+    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.portflio-list-item-text {
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-section {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+    flex-shrink: 0;
+}
+.team-section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+.team-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    margin-right: 24px;
+}
+
+.team-list-item:last-child {
+    margin-right: 0;
+}
+.team-list-item-name {
+    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.team-list-item-text {
+    color: #434455;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
+
