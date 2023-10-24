@@ -254,9 +254,10 @@ body {
   gap: 40px;
 }
 .menu {
-  padding-top: 24px;
-  border-bottom: 1px solid #e7e9fc
+  padding: 24px 0 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+   
 }
 .flex-small-titles {
   display: flex;
