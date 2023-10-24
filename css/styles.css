@@ -293,6 +293,10 @@ body {
   margin-bottom: 8px;
 }
 .porflio-products {
-    padding: 32px 16px;
-    border-top: none;
+  padding: 32px 16px;
+  border-top: none;
+}
+.footer-color .container a {
+  margin-bottom: 16px;
+  display: inline-block;
 }
