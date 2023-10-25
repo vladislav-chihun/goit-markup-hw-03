@@ -428,3 +428,6 @@ border-bottom: 1px solid #e7e9fc;
 .descr-list {
   width: calc((100% - 72px) / 4);
 }
+.descrlist {
+    width: calc((100% - 72px) / 4);
+}
