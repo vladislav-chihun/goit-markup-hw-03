@@ -425,7 +425,7 @@ border-bottom: 1px solid #e7e9fc;
 .descrlist {
     width: calc((100% - 72px) / 4);
 }
-.containerteam {
+.container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
