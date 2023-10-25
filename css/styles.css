@@ -354,14 +354,11 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
 }
 
-
-
 .team-section {
     background-color: #F4F4FD;
     padding: 120px 0;
     flex-shrink: 0;
 }
-
 
 .team-section-title {
     color: #2E2F42;
@@ -393,6 +390,9 @@ border-bottom: 1px solid #e7e9fc;
     margin-right: 24px;
 }
 
+.team-list-item:last-child {
+    margin-right: 0;
+}
 
 .team-list-item-name {
     color: #2E2F42;
@@ -416,4 +416,5 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-bottom: 32px;
+  
 }
