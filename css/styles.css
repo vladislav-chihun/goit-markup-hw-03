@@ -419,9 +419,6 @@ border-bottom: 1px solid #e7e9fc;
     padding-top: 32px;
   
 }
-.team-section .container {
-    padding: 32px 0 32px;
-}
 .descr-list {
   width: calc((100% - 72px) / 4);
 }
