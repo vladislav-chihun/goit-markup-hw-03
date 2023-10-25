@@ -211,7 +211,7 @@ padding-bottom: 24px;
 .footer-color {
   background-color: #2e2f42;
   padding: 100px 0 100px;
-  
+
 }
 
 .pic-color {
@@ -424,4 +424,7 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
     padding-bottom: 32px;
     /* padding-top: 8px; */
+}
+.div-team {
+  padding: 32px 0;
 }
